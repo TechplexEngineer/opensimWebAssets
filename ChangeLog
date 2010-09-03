@@ -1,0 +1,5 @@
+2010-09-04 
+	* added imagemagick jpeg2k delegate notes to README and INSTALL files.
+	* updated README file with current server-side software versions in use.
+	* moving from old svn repository to git.
+
