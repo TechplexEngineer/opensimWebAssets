@@ -1,6 +1,6 @@
 About WebAssets for OpenSimulator
 -===============================-
-This small set of php functions provide easy access to OpenSimulator
+This small set of php functions provides easy access to OpenSimulator
 assets, adding another level of caching, thus limiting load on given
 asset server.
 
