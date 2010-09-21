@@ -1,7 +1,6 @@
 Requirements :
 --------------
 - Running OpenSimulator Grid
-- Php-enabled webserver
 - Php5 > 5.1.3
 - ImageMagick > 6.2.4 (WITH jp2 delegate)
 - imagick PECL > 2.2.0 (http://pecl.php.net/package/imagick or "pecl install imagick")
