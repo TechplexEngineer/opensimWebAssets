@@ -45,7 +45,7 @@ class WebAsset implements IOpensimAsset {
      * @return (string) asset's UUID.
      */
     public function getUUID() {
-        return ($uuid);
+        return ($this->uuid);
     }
 }
 
