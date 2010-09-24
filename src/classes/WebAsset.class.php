@@ -27,6 +27,10 @@
 class WebAsset implements IOpensimAsset {
     protected $uuid; /**< asset's UUID, internally assigned by Opensimulator */
 
+    function __construct($id) {
+        $this->uuid = $id;
+    }
+
     /**
      * @brief sets current WebAsset's UUID
      * @param id (string) opensim UUID for asset. ex: "00000000-0000-0000-0000-000000000000"

@@ -18,7 +18,7 @@
 /**
  * @todo implement this :p
  */
-class WebAsset_Viewer {
+class WebAsset_Viewer implements IAssetViewer {
     private static $_instance; /**< pointer to current instance */
 
     /** 
@@ -31,6 +31,30 @@ class WebAsset_Viewer {
         }
 
         return (self::$_instance);
+    }
+
+    public function load($assetUUID) {
+
+    }
+
+    public function loadSuccessful() {
+
+    }
+
+    public function renderImage($toFormat) {
+
+    }
+
+    public function getImageDatas($toFormat) {
+
+    }
+
+    public function renderSound() {
+
+    }
+
+    public function renderAnimation() {
+
     }
 }
 

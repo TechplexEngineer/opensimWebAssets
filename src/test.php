@@ -12,7 +12,7 @@ $cfg = Config_Engine_Ini::instance();
 $viewer = WebAsset_Viewer::instance();
 // ...
 
-$asset = new WebAsset();
+$asset = new WebAsset("cb2052ae-d161-43e9-b11b-c834217823cd");
 // ...
 
 ?>
