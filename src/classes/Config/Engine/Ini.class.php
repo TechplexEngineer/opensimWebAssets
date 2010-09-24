@@ -74,9 +74,9 @@ class Config_Engine_Ini extends Config_Engine {
 	 */
 	public function getkey($group, $key) {
 		if (!array_key_exists($group, $this->_config))
-			return (array());
+			return ("");
 		if (!array_key_exists($key, $this->_config[$group]))
-			return (array());
+			return ("");
 		return ($this->_config[$group][$key]);
 	}
 
