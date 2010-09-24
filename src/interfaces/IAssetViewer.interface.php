@@ -15,7 +15,7 @@ interface IAssetViewer {
     /**
      * @brief renders currently loaded image asset to given format.
      * @param toFormat (string) format identifier to convert image to (eg: "JPEG")
-     * @return (mixed) sets http content-type header and outputs raw image datas.
+     * @return (void) sets http content-type header and outputs raw image datas.
      */
     function renderImage($toFormat);
 
