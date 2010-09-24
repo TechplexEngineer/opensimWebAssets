@@ -1,4 +1,8 @@
 [ ] use spl_autoload_register() to register our autoloader.
 
+[ ] write a CachedConfig engine, extending our ConfigEngine class
+
+[ ] move remaining code from non-object functions to proper classes.
+
 [ ] Basic ImageMagick exceptions/error handling
 
