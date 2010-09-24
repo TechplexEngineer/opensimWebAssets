@@ -1,5 +1,4 @@
-- Basic ImageMagick exceptions/error handling
+[ ] use spl_autoload_register() to register our autoloader.
 
-- Make a clean oo interface to this.
-
+[ ] Basic ImageMagick exceptions/error handling
 
