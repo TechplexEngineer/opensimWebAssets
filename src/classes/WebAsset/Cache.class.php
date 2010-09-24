@@ -11,27 +11,27 @@ class WebAsset_Cache implements IAssetCache {
         return (self::$_instance);
     }
 
-    public function isFormatCached($assetUUID, $format) {
+    public function isFormatCached($asset, $format) {
 
     }
 
-    public function isCached($assetUUID) {
+    public function isCached($asset) {
+        return (false);
+    }
+
+    public function retrieveFormat($asset, $format) {
 
     }
 
-    public function retrieveFormat($assetUUID, $format) {
+    public function retrieve($asset) {
+        // if (read fails) throw new WaException_Cache("fopen / fread error msg");
+    }
+
+    public function storeFormat($asset, $format, $datas) {
 
     }
 
-    public function retrieve($assetUUID) {
-
-    }
-
-    public function storeFormat($assetUUID, $format, $datas) {
-
-    }
-
-    public function store($assetUUID, $datas) {
+    public function store($asset, $datas) {
 
     }
 
