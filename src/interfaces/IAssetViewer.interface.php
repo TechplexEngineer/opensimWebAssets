@@ -5,15 +5,12 @@ interface IAssetViewer {
     /**
      * @brief loads given asset from configured asset server.
      * @param assetUUID (string) asset's UUID
-     * @return void ; call loadSuccessful() for retrieval status.
+     * @return void
+     * @throw WaException_Timeout on fetch timeout
+     * @throw WaException_Cache on cache read/write failure
+     * @throw WaException_Convert on conversion failure
      */
     function load($assetUUID);
-
-    /**
-     * @brief wether last load() call was successful or not.
-     * @return (boolean) true on successful loading, false otherwise.
-     */
-    function loadSuccessful();
 
     /**
      * @brief renders currently loaded image asset to given format.
