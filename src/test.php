@@ -6,13 +6,12 @@
  */
 require_once('bootstrap.php');
 
-$cfg = Config_Engine_Ini::instance();
-// ...
-
 $viewer = WebAsset_Viewer::instance();
+$viewer->load(new WebAsset("cb2052ae-d161-43e9-b11b-c834217823cd"));
+
+// $rawImage = $viewer->getImageDatas("JPEG");
 // ...
 
-$asset = new WebAsset("cb2052ae-d161-43e9-b11b-c834217823cd");
-// ...
+// $cache = WebAsset_Cache::instance();
 
 ?>
