@@ -1,4 +1,20 @@
 <?php
+/*
+ * This file is part of WebAssets for OpenSimulator.
+ *
+ * WebAssets for OpenSimulator is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation.
+ *
+ * WebAssets for OpenSimulator is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with WebAssets for OpenSimulator.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
 /**
  * @file bootstrap.php
  * @brief simple autoloader initialization.
@@ -11,6 +27,12 @@ define('ROOT', dirname(__FILE__));
 define('CLASSES', ROOT . SEP . 'classes' . SEP);
 define('INTERFACES', ROOT . SEP . 'interfaces' . SEP);
 
+/**
+ * @brief simple autoloader, for our classes and interfaces.
+ * @details lookups interfaces under 'interfaces/Ifoo.interface.php' (IFoo interface)
+ * and classes under 'classes/FirstWord/SecondWord.class.php' ('FirstWord_SecondWord' class)
+ * @throws RuntimeException when requested class/interface is not found.
+ */
 function __autoload($className) {
     // looking for classes :
     $classFile = CLASSES . str_replace('_', SEP, $className.'.class.php');
