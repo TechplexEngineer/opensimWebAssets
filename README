@@ -1,11 +1,11 @@
 About WebAssets for OpenSimulator
 -===============================-
-This small set of php functions provides easy access to OpenSimulator
+This small set of php classes provides easy access to OpenSimulator
 assets, adding another level of caching, thus limiting load on given
 asset server.
 
 Typical usage includes web publication of avatar's profile pictures, library and user
-stored textures, region maptiles, user and regions/lands snapshots.
+stored textures, user snapshots...
 
 It was updated and tested on September 2010, with following software :
 
