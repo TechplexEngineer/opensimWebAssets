@@ -27,6 +27,8 @@ define('ROOT', dirname(__FILE__));
 define('CLASSES', ROOT . SEP . 'classes' . SEP);
 define('INTERFACES', ROOT . SEP . 'interfaces' . SEP);
 
+define('CONFIG_INI', ROOT . SEP . 'config' . SEP . 'default.ini');
+
 /**
  * @brief simple autoloader, for our classes and interfaces.
  * @details lookups interfaces under 'interfaces/Ifoo.interface.php' (IFoo interface)
