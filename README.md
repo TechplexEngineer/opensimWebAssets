@@ -14,13 +14,17 @@ Updated and tested on September 2010, with following software :
 
 WebServer :
  * Apache 2.2.16
+
  * Php 5.2.14
+
  * imagick 2.3.0 PECL package
+
  * ImageMagick 6.6.2.5 with jpeg2k delegate
  running on linux 2.6.34, gentoo 64bits
 
 OpenSimulator AssetServer :
- - OpenSimulator 0.6.9 (grid mode) both from a local grid and current osgrid.org GRID.
+
+ * OpenSimulator 0.6.9 (grid mode) both from a local grid and current osgrid.org GRID.
 
 Installation
 ------------
