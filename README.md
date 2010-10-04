@@ -13,6 +13,7 @@ Tested on
 Updated and tested on September 2010, with following software :
 
 WebServer :
+
  * Apache 2.2.16
 
  * Php 5.2.14
