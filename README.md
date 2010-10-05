@@ -8,6 +8,12 @@ asset server.
 Typical usage includes web publication of avatar's profile pictures, library and user
 stored textures, region maptiles, user and regions/lands snapshots.
 
+
+classes availability
+--------------------
+
+oo classes are currently beeing worked on ('objectoriented-staging' branch). Merge will occur upon completion/successful tests.
+
 Tested on
 ---------
 Updated and tested on September 2010, with following software :
